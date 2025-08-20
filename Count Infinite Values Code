@@ -1,0 +1,7 @@
+n=1
+total=0
+while(n!=0):
+    n=int(input("enter the number:"))
+    if(n>=40 and n<=100):
+      total += n
+print("sum:",total)     
