@@ -1,0 +1,9 @@
+mem=[]
+while(len(mem)!=5):
+    a=int(input("enter a number:"))
+    if a in mem:
+        print("This number is already existed")
+    else:
+        mem.append(a)
+print(mem)
+        
