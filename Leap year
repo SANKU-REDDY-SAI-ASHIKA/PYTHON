@@ -1,0 +1,11 @@
+n=int(input("Enter the  number:"))
+if n%4==0:
+    if n%100==0:
+        if n%400==0:
+            print("leap year")
+        else:
+            print("Not leap year")
+    else:
+        print("laep year")
+else:
+    print("Not leap year")
